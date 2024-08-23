@@ -3,4 +3,4 @@ import cv2
 
 img = cv2.imread('assets/chessboard.png')
 
-cv2.imshow('')
+cv2.imshow('frame')
