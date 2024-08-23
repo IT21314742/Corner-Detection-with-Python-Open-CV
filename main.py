@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 img = cv2.imread('assets/chessboard.png')
-img = cv2.resize(img, )
+img = cv2.resize(img, ())
 
 
 cv2.imshow('frame', img)
