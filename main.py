@@ -8,7 +8,7 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 corners = cv2.goodFeaturesToTrack(img, 100, 0.01, 10)
 
 (x1, y1) (x2, y2)
-sqrt((x2 - x1)^2 (y2 - y1)^)
+sqrt((x2 - x1)^2 (y2 - y1)^2)
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
