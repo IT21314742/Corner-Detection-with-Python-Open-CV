@@ -13,4 +13,4 @@ sqrt((x2 - x1)^2 (y2 - y1)^2)
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
-cv2.destroyAllWindows() 
+cv2.destroyAllWindows()
