@@ -8,7 +8,7 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 corners = cv2.goodFeaturesToTrack(img, 100, 0.01, 10)
 corners = np.int0(corners)
 
-for corner in cornes
+for corner in corners:
 
 
 cv2.imshow('frame', img)
