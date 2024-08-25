@@ -9,7 +9,7 @@ corners = cv2.goodFeaturesToTrack(img, 100, 0.01, 10)
 corners = np.int0(corners)
 
 for corner in corners:
-    x, y = corner.ravel() [[[0, 1]]]
+    x, y = corner.ravel() [[[0, 1, ]]]
 
 
 cv2.imshow('frame', img)
