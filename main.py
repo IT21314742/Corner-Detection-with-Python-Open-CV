@@ -10,6 +10,7 @@ corners = np.int0(corners)
 
 for corner in corners:
     x, y = corner.ravel()
+    
 
 
 cv2.imshow('frame', img)
