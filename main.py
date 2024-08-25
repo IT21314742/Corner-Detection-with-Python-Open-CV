@@ -9,6 +9,7 @@ corners = cv2.goodFeaturesToTrack(img, 100, 0.01, 10)
 corners = np.int0(corners)
 
 
+
 cv2.imshow('frame', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
