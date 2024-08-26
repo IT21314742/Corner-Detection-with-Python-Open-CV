@@ -13,7 +13,7 @@ for corner in corners:
     cv2.circle(img, (x, y), 5, (255, 0, 0), -1)
 
 for i in range(len(corners)):
-    for j in range(i + 1len(corners)):
+    for j in range(i + 1,len(corners)):
         corner1 = corners[i]
         corner2 = corners[j]
 
