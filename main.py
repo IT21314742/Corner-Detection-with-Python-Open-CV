@@ -13,7 +13,7 @@ for corner in corners:
     cv2.circle(img, (x, y), 5, (255, 0, 0), -1)
 
 for i in range(len(corners)):
-    for j in 
+    for j in range
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
