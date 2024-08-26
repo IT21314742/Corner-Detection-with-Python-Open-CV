@@ -14,8 +14,8 @@ for corner in corners:
 
 for i in range(len(corners)):
     for j in range(i + 1, len(corners)):
-        corner1 = tuplecorners[i]
-        corner2 = tuplecorners[j]
+        corner1 = tuple(corners[i]
+        corner2 = tuple(corners[j]
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
