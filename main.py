@@ -14,8 +14,8 @@ for corner in corners:
 
 for i in range(len(corners)):
     for j in range(i + 1, len(corners)):
-        corner1 = corners[i]
-        corner2 = corners[j]
+        corner1 = tcorners[i]
+        corner2 = tcorners[j]
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
