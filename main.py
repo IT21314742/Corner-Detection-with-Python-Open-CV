@@ -15,4 +15,4 @@ for corner in corners:
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
-.destroyAllWindows()
+cv2.destroyAllWindows()
