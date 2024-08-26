@@ -12,7 +12,7 @@ for corner in corners:
     x, y = corner.ravel()
     cv2.circle(img, (x, y), 5, (255, 0, 0), -1)
 
-for i in range(len(cor))
+for i in range(len(corn))
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
