@@ -17,7 +17,7 @@ for i in range(len(corners)):
         corner1 = tuple(corners[i])
         corner2 = tuple(corners[j])
         color = tuple(map(lambda x: int(x), np.random.randint(0, 255, size=3)))
-        cv2.line(img, corner1, corner2, color, 1)
+        cv2.line(img, corner1, corner2, color , 1)
 
 cv2.imshow('frame', img)
 cv2.waitKey(0)
